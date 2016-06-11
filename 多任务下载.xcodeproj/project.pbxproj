@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6760134F1D0AD895003806E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6760134E1D0AD895003806E7 /* main.m */; };
+		676013521D0AD895003806E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 676013511D0AD895003806E7 /* AppDelegate.m */; };
+		676013551D0AD895003806E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 676013541D0AD895003806E7 /* ViewController.m */; };
+		676013581D0AD895003806E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676013561D0AD895003806E7 /* Main.storyboard */; };
+		6760135A1D0AD895003806E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676013591D0AD895003806E7 /* Assets.xcassets */; };
+		6760135D1D0AD895003806E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6760135B1D0AD895003806E7 /* LaunchScreen.storyboard */; };
+		676013651D0ADA08003806E7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 676013641D0ADA08003806E7 /* libz.tbd */; };
+		676013881D0ADA9C003806E7 /* NSArray+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6760136F1D0ADA9C003806E7 /* NSArray+CZAddition.m */; };
+		676013891D0ADA9C003806E7 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 676013711D0ADA9C003806E7 /* NSArray+Log.m */; };
+		6760138A1D0ADA9C003806E7 /* NSAttributedString+CZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = 676013731D0ADA9C003806E7 /* NSAttributedString+CZAdditon.m */; };
+		6760138B1D0ADA9C003806E7 /* NSObject+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 676013751D0ADA9C003806E7 /* NSObject+CZAddition.m */; };
+		6760138C1D0ADA9C003806E7 /* NSString+CZBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 676013771D0ADA9C003806E7 /* NSString+CZBase64.m */; };
+		6760138D1D0ADA9C003806E7 /* NSString+CZHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 676013791D0ADA9C003806E7 /* NSString+CZHash.m */; };
+		6760138E1D0ADA9C003806E7 /* NSString+CZPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 6760137B1D0ADA9C003806E7 /* NSString+CZPath.m */; };
+		6760138F1D0ADA9C003806E7 /* UIButton+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6760137D1D0ADA9C003806E7 /* UIButton+CZAddition.m */; };
+		676013901D0ADA9C003806E7 /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6760137F1D0ADA9C003806E7 /* UIColor+CZAddition.m */; };
+		676013911D0ADA9C003806E7 /* UILabel+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 676013811D0ADA9C003806E7 /* UILabel+CZAddition.m */; };
+		676013921D0ADA9C003806E7 /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 676013831D0ADA9C003806E7 /* UIScreen+CZAddition.m */; };
+		676013931D0ADA9C003806E7 /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 676013851D0ADA9C003806E7 /* UIView+CZAddition.m */; };
+		676013941D0ADA9C003806E7 /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 676013871D0ADA9C003806E7 /* UIViewController+CZAddition.m */; };
+		676013981D0ADFBD003806E7 /* CZBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 676013971D0ADFBD003806E7 /* CZBook.m */; };
+		6760139C1D0AE9F1003806E7 /* CZBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6760139B1D0AE9F1003806E7 /* CZBookCell.m */; };
+		6760139F1D0B138D003806E7 /* CZDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6760139E1D0B138D003806E7 /* CZDownloadManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6760134A1D0AD895003806E7 /* 多任务下载.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多任务下载.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6760134E1D0AD895003806E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		676013501D0AD895003806E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		676013511D0AD895003806E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		676013531D0AD895003806E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		676013541D0AD895003806E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		676013571D0AD895003806E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		676013591D0AD895003806E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6760135C1D0AD895003806E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6760135E1D0AD895003806E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676013641D0ADA08003806E7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6760136D1D0ADA9C003806E7 /* CZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZAdditions.h; sourceTree = "<group>"; };
+		6760136E1D0ADA9C003806E7 /* NSArray+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CZAddition.h"; sourceTree = "<group>"; };
+		6760136F1D0ADA9C003806E7 /* NSArray+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CZAddition.m"; sourceTree = "<group>"; };
+		676013701D0ADA9C003806E7 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		676013711D0ADA9C003806E7 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		676013721D0ADA9C003806E7 /* NSAttributedString+CZAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+CZAdditon.h"; sourceTree = "<group>"; };
+		676013731D0ADA9C003806E7 /* NSAttributedString+CZAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+CZAdditon.m"; sourceTree = "<group>"; };
+		676013741D0ADA9C003806E7 /* NSObject+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CZAddition.h"; sourceTree = "<group>"; };
+		676013751D0ADA9C003806E7 /* NSObject+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CZAddition.m"; sourceTree = "<group>"; };
+		676013761D0ADA9C003806E7 /* NSString+CZBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZBase64.h"; sourceTree = "<group>"; };
+		676013771D0ADA9C003806E7 /* NSString+CZBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZBase64.m"; sourceTree = "<group>"; };
+		676013781D0ADA9C003806E7 /* NSString+CZHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZHash.h"; sourceTree = "<group>"; };
+		676013791D0ADA9C003806E7 /* NSString+CZHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZHash.m"; sourceTree = "<group>"; };
+		6760137A1D0ADA9C003806E7 /* NSString+CZPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZPath.h"; sourceTree = "<group>"; };
+		6760137B1D0ADA9C003806E7 /* NSString+CZPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZPath.m"; sourceTree = "<group>"; };
+		6760137C1D0ADA9C003806E7 /* UIButton+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CZAddition.h"; sourceTree = "<group>"; };
+		6760137D1D0ADA9C003806E7 /* UIButton+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CZAddition.m"; sourceTree = "<group>"; };
+		6760137E1D0ADA9C003806E7 /* UIColor+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZAddition.h"; sourceTree = "<group>"; };
+		6760137F1D0ADA9C003806E7 /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
+		676013801D0ADA9C003806E7 /* UILabel+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CZAddition.h"; sourceTree = "<group>"; };
+		676013811D0ADA9C003806E7 /* UILabel+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CZAddition.m"; sourceTree = "<group>"; };
+		676013821D0ADA9C003806E7 /* UIScreen+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+CZAddition.h"; sourceTree = "<group>"; };
+		676013831D0ADA9C003806E7 /* UIScreen+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+CZAddition.m"; sourceTree = "<group>"; };
+		676013841D0ADA9C003806E7 /* UIView+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZAddition.h"; sourceTree = "<group>"; };
+		676013851D0ADA9C003806E7 /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
+		676013861D0ADA9C003806E7 /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
+		676013871D0ADA9C003806E7 /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
+		676013961D0ADFBD003806E7 /* CZBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZBook.h; sourceTree = "<group>"; };
+		676013971D0ADFBD003806E7 /* CZBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZBook.m; sourceTree = "<group>"; };
+		6760139A1D0AE9F1003806E7 /* CZBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZBookCell.h; sourceTree = "<group>"; };
+		6760139B1D0AE9F1003806E7 /* CZBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZBookCell.m; sourceTree = "<group>"; };
+		6760139D1D0B138D003806E7 /* CZDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZDownloadManager.h; sourceTree = "<group>"; };
+		6760139E1D0B138D003806E7 /* CZDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZDownloadManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		676013471D0AD895003806E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676013651D0ADA08003806E7 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		676013411D0AD895003806E7 = {
+			isa = PBXGroup;
+			children = (
+				676013641D0ADA08003806E7 /* libz.tbd */,
+				6760134C1D0AD895003806E7 /* 多任务下载 */,
+				6760134B1D0AD895003806E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6760134B1D0AD895003806E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6760134A1D0AD895003806E7 /* 多任务下载.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6760134C1D0AD895003806E7 /* 多任务下载 */ = {
+			isa = PBXGroup;
+			children = (
+				6760136B1D0ADA9C003806E7 /* Tools */,
+				676013501D0AD895003806E7 /* AppDelegate.h */,
+				676013511D0AD895003806E7 /* AppDelegate.m */,
+				676013531D0AD895003806E7 /* ViewController.h */,
+				676013541D0AD895003806E7 /* ViewController.m */,
+				6760139D1D0B138D003806E7 /* CZDownloadManager.h */,
+				6760139E1D0B138D003806E7 /* CZDownloadManager.m */,
+				676013991D0AE8C2003806E7 /* View */,
+				676013951D0ADF95003806E7 /* Model */,
+				676013561D0AD895003806E7 /* Main.storyboard */,
+				676013591D0AD895003806E7 /* Assets.xcassets */,
+				6760135B1D0AD895003806E7 /* LaunchScreen.storyboard */,
+				6760135E1D0AD895003806E7 /* Info.plist */,
+				6760134D1D0AD895003806E7 /* Supporting Files */,
+			);
+			path = "多任务下载";
+			sourceTree = "<group>";
+		};
+		6760134D1D0AD895003806E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6760134E1D0AD895003806E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6760136B1D0ADA9C003806E7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6760136C1D0ADA9C003806E7 /* Additions */,
+			);
+			name = Tools;
+			path = "../../03-多线程网络/03-多线程网络-第11天（NSURLSession）/02-其他资源/01-素材/Tools";
+			sourceTree = "<group>";
+		};
+		6760136C1D0ADA9C003806E7 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				6760136D1D0ADA9C003806E7 /* CZAdditions.h */,
+				6760136E1D0ADA9C003806E7 /* NSArray+CZAddition.h */,
+				6760136F1D0ADA9C003806E7 /* NSArray+CZAddition.m */,
+				676013701D0ADA9C003806E7 /* NSArray+Log.h */,
+				676013711D0ADA9C003806E7 /* NSArray+Log.m */,
+				676013721D0ADA9C003806E7 /* NSAttributedString+CZAdditon.h */,
+				676013731D0ADA9C003806E7 /* NSAttributedString+CZAdditon.m */,
+				676013741D0ADA9C003806E7 /* NSObject+CZAddition.h */,
+				676013751D0ADA9C003806E7 /* NSObject+CZAddition.m */,
+				676013761D0ADA9C003806E7 /* NSString+CZBase64.h */,
+				676013771D0ADA9C003806E7 /* NSString+CZBase64.m */,
+				676013781D0ADA9C003806E7 /* NSString+CZHash.h */,
+				676013791D0ADA9C003806E7 /* NSString+CZHash.m */,
+				6760137A1D0ADA9C003806E7 /* NSString+CZPath.h */,
+				6760137B1D0ADA9C003806E7 /* NSString+CZPath.m */,
+				6760137C1D0ADA9C003806E7 /* UIButton+CZAddition.h */,
+				6760137D1D0ADA9C003806E7 /* UIButton+CZAddition.m */,
+				6760137E1D0ADA9C003806E7 /* UIColor+CZAddition.h */,
+				6760137F1D0ADA9C003806E7 /* UIColor+CZAddition.m */,
+				676013801D0ADA9C003806E7 /* UILabel+CZAddition.h */,
+				676013811D0ADA9C003806E7 /* UILabel+CZAddition.m */,
+				676013821D0ADA9C003806E7 /* UIScreen+CZAddition.h */,
+				676013831D0ADA9C003806E7 /* UIScreen+CZAddition.m */,
+				676013841D0ADA9C003806E7 /* UIView+CZAddition.h */,
+				676013851D0ADA9C003806E7 /* UIView+CZAddition.m */,
+				676013861D0ADA9C003806E7 /* UIViewController+CZAddition.h */,
+				676013871D0ADA9C003806E7 /* UIViewController+CZAddition.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		676013951D0ADF95003806E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				676013961D0ADFBD003806E7 /* CZBook.h */,
+				676013971D0ADFBD003806E7 /* CZBook.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		676013991D0AE8C2003806E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6760139A1D0AE9F1003806E7 /* CZBookCell.h */,
+				6760139B1D0AE9F1003806E7 /* CZBookCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		676013491D0AD895003806E7 /* 多任务下载 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676013611D0AD895003806E7 /* Build configuration list for PBXNativeTarget "多任务下载" */;
+			buildPhases = (
+				676013461D0AD895003806E7 /* Sources */,
+				676013471D0AD895003806E7 /* Frameworks */,
+				676013481D0AD895003806E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "多任务下载";
+			productName = "多任务下载";
+			productReference = 6760134A1D0AD895003806E7 /* 多任务下载.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		676013421D0AD895003806E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "张玺科";
+				TargetAttributes = {
+					676013491D0AD895003806E7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 676013451D0AD895003806E7 /* Build configuration list for PBXProject "多任务下载" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 676013411D0AD895003806E7;
+			productRefGroup = 6760134B1D0AD895003806E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				676013491D0AD895003806E7 /* 多任务下载 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		676013481D0AD895003806E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6760135D1D0AD895003806E7 /* LaunchScreen.storyboard in Resources */,
+				6760135A1D0AD895003806E7 /* Assets.xcassets in Resources */,
+				676013581D0AD895003806E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		676013461D0AD895003806E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676013551D0AD895003806E7 /* ViewController.m in Sources */,
+				6760138D1D0ADA9C003806E7 /* NSString+CZHash.m in Sources */,
+				676013911D0ADA9C003806E7 /* UILabel+CZAddition.m in Sources */,
+				676013981D0ADFBD003806E7 /* CZBook.m in Sources */,
+				6760138A1D0ADA9C003806E7 /* NSAttributedString+CZAdditon.m in Sources */,
+				6760138C1D0ADA9C003806E7 /* NSString+CZBase64.m in Sources */,
+				676013881D0ADA9C003806E7 /* NSArray+CZAddition.m in Sources */,
+				6760138B1D0ADA9C003806E7 /* NSObject+CZAddition.m in Sources */,
+				676013891D0ADA9C003806E7 /* NSArray+Log.m in Sources */,
+				6760139C1D0AE9F1003806E7 /* CZBookCell.m in Sources */,
+				676013521D0AD895003806E7 /* AppDelegate.m in Sources */,
+				676013941D0ADA9C003806E7 /* UIViewController+CZAddition.m in Sources */,
+				676013921D0ADA9C003806E7 /* UIScreen+CZAddition.m in Sources */,
+				676013931D0ADA9C003806E7 /* UIView+CZAddition.m in Sources */,
+				6760138E1D0ADA9C003806E7 /* NSString+CZPath.m in Sources */,
+				6760138F1D0ADA9C003806E7 /* UIButton+CZAddition.m in Sources */,
+				6760139F1D0B138D003806E7 /* CZDownloadManager.m in Sources */,
+				676013901D0ADA9C003806E7 /* UIColor+CZAddition.m in Sources */,
+				6760134F1D0AD895003806E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		676013561D0AD895003806E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				676013571D0AD895003806E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6760135B1D0AD895003806E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6760135C1D0AD895003806E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6760135F1D0AD895003806E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		676013601D0AD895003806E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		676013621D0AD895003806E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "多任务下载/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.405034849-qq.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		676013631D0AD895003806E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "多任务下载/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.405034849-qq.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		676013451D0AD895003806E7 /* Build configuration list for PBXProject "多任务下载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6760135F1D0AD895003806E7 /* Debug */,
+				676013601D0AD895003806E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		676013611D0AD895003806E7 /* Build configuration list for PBXNativeTarget "多任务下载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676013621D0AD895003806E7 /* Debug */,
+				676013631D0AD895003806E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 676013421D0AD895003806E7 /* Project object */;
+}
